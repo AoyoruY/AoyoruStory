@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: Aoyoru
-language: zh
+language: zh-CN
 timezone: ''
 
 # URL
@@ -97,9 +97,15 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: AYStory
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# hexo-admin authentification
+admin:
+  username: aoyoru
+  password_hash: $2a$10$qNokuxcEk/4Ed9Vdw5ogOeMyX87QYwrbCBUzkCeoSsnM2/BGzVFt6
+  secret: 9029AoyoruStorySecret
